@@ -3,7 +3,7 @@
 
 ## REQUIREMENT
 * OS: windows 11
-* Lang: openjdk 17.0.4
+* Lang: Java (openjdk 17.0.4)
 * Edit: Visual Studio Code 1.69.2
 
 ## AUTHOR
