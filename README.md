@@ -1,5 +1,8 @@
 ## Stone-lang
 1. 字句解析　lexical analyzer
+    トークン定義 8/6
+    分割処理 & 字句解析テスト　8/7
+
 
 ## REQUIREMENT
 * OS: windows 11

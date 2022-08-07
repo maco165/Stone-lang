@@ -1,4 +1,4 @@
-package stone;
+package stone.src;
 
 public abstract class Token {
     public static final Token EOF = new Token(-1){};    //end of file
