@@ -1,7 +1,7 @@
 ## Stone-lang
 1. 字句解析　lexical analyzer
-    トークン定義 8/6
-    分割処理 & 字句解析テスト　8/7
+    1. トークン定義 8/6
+    1. 分割処理 & 字句解析テスト　8/7
 
 
 ## REQUIREMENT
