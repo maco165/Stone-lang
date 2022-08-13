@@ -17,7 +17,7 @@ public class ASTList extends ASTree {
             sep = " ";
             builder.append(t.toString());
         }
-        return builder.append('(').toString();
+        return builder.append(')').toString();
     }
 
     public String location() {
