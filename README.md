@@ -2,8 +2,9 @@
 1. 字句解析　lexical analyzer
     1. トークン定義 8/6
     1. 分割処理 & 字句解析テスト　8/7
-2. 抽象構文木 AST(Abstract Syntax Tree) 
-    1. 抽象構文木処理 8/8
+2. 構文解析器 parser
+    1. 抽象構文木　節設計 8/8
+    2. 構文解析器　設計　8/11 8/13
 
 
 ## REQUIREMENT
