@@ -161,7 +161,7 @@ public class Parser {
     }
 
     public static class Operators extends HashMap<String,Precedence> {
-        public static boolean LEFt = true;
+        public static boolean LEFT = true;
         public static boolean RIGHT = false;
         public void add(String name, int prec, boolean leftAssoc) {
             put(name, new Precedence(prec, leftAssoc));
@@ -336,7 +336,7 @@ public class Parser {
         elements.add(new Tree(p));
         return this;
     }
-    public Parser or(Parser p) {
+    public Parser or(Parser... p) {
         elements.add(new OrTree(p));
         return this;
     }
