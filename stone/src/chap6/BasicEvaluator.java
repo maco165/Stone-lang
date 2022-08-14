@@ -5,8 +5,6 @@ import stone.src.StoneException;
 import stone.src.ast.*;
 import java.util.List;
 
-import javax.lang.model.util.ElementScanner14;
-
 @Reviser public class BasicEvaluator {
     public static final int TRUE = 1;
     public static final int FALSE = 0;
