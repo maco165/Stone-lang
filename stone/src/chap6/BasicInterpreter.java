@@ -1,17 +1,13 @@
 package stone.src.chap6;
 import java.text.ParseException;
 
-import stone.*;
-import stone.src.BasicParser;
-import stone.src.Lexer;
-import stone.src.Token;
+import stone.src.*;
 import stone.src.ast.ASTree;
 import stone.src.ast.NullStmnt;
-import stone.src.test.CodeDialog;
 
 public class BasicInterpreter {
     public static void main(String[] args) throws ParseException {
-        run(new BasicEnv(), new BasicEnv());
+        run(new BasicParser(), new BasicEnv());
     }
 
     public static void run(BasicParser bp, Environment env) throws ParseException {
